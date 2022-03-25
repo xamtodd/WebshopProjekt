@@ -1,0 +1,56 @@
+#content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+}
+#content #text{
+    font-size: 5em;
+}
+#content p{
+    width: 80%;
+    margin: auto;
+    margin-top: 0%;
+    font-size: 2em;
+}
+button{
+    width: 12%;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 2%;
+    margin-right: 0.3%;
+    margin-left: 0.3%;
+    padding: 0.8%;
+    font-weight: bold;
+    border: none;
+    background-color: #ff8f08;
+    text-decoration: none;
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+@media (max-width: 1000px){
+    button{
+        width: 60%;
+    }
+    #content #text{
+        font-size: 3em;
+    }
+    #content p{
+        width: 80%;
+        margin: auto;
+        margin-top: 0%;
+        font-size: 1.5em;
+        margin-bottom: 2%;
+    }
+    button a{
+        text-decoration: none;
+        color: black;
+    }
+}

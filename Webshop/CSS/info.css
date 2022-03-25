@@ -1,0 +1,99 @@
+#content{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+p a{
+    color: #ff8f08;
+    cursor: pointer;
+    font-style: italic;
+    text-decoration: none;
+}
+.name:hover{
+    transform: scale(1.1);
+}
+.bild{
+    width: 50%;
+}
+.bild img{
+    width: 100%;
+    height: auto;
+}
+.produktname{
+    display: flex;
+    justify-content: space-between;
+}
+.beschreibung{
+
+}
+button {
+    width: 100%;
+    background-color: #ff8f08;
+    border-radius: 20px;
+    border: none;
+    padding: 1%;
+    margin-top: 1%;
+}
+form input {
+    width: 100%;
+    background-color: #ff8f08;
+    border-radius: 20px;
+    border: none;
+    padding: 1%;
+    margin-top: 1%;
+}
+.infos{
+    width: 50%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 1.5em;
+}
+.bild{
+    padding-left: 1%;
+    padding-right: 1%;
+    border-left: 2px solid black;
+}
+.lable {
+    font-weight: bold;
+}
+.hersteller{
+    display: flex;
+    justify-content: space-between;
+}
+.groesse{
+    display: flex;
+    justify-content: space-between;
+}
+.groesse select{
+    height: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.tabelle table th{
+    width: 33%;
+}
+.tabelle table{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+@media screen and (max-width: 1000px) {
+    .infos{
+        width: 100%;
+    }
+    .main{
+        display: block;
+    }
+    .bild{
+        border-top: 2px solid black;
+        border-left: none;
+        width: 100%;
+        margin-top: 6%;
+        padding-top: 2%;
+    }
+}

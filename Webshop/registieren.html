@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Webshop - registrieren</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/regisrieren.css">
+    </head>
+    <body>
+    <br>
+        <div class = "registrierung-box">
+            <h1>Account anlegen</h1>
+            <form action="PHP/registrieren.php" method="post">
+                <label>Benutzername:*</label>
+                <input type="text" name="benutzername" placeholder="MaxMuster" required><br>
+                <br>
+                <label>Vorname*:</label>
+                <input type="text" name="vorname" placeholder="Max" required><br>
+                <br>
+                <label>Nachname*:</label>
+                <input type="text" name="nachname" placeholder="Mustermann" required><br>
+                <br>
+                <label>Geburtsdatum:</label>
+                <input type="date" name="geburtsdatum"><br
+                ><br>
+                <label>Email:*</label>
+                <input type="email" name="email" placeholder="mustermail@mail.de" required><br>
+                <br>
+                <label>Passwort:*</label>
+                <input type="password" name="passworteingabe" placeholder="**********" required><br>
+                <br>
+                <label>Passwort wiederholen:*</label>
+                <input type="password" name="passwortwiederhohlung" placeholder="**********" required><br>
+                <br>
+                * Pflichtfelder
+                <br>
+                <br>
+                <input type="submit" value="registrieren">
+            </form>
+            <p class="untererAbschnitt">Du bist bereits Kunde? <a href="anmelden.html">Anmelden</a></p>
+        </div>
+    </body>
+</html>

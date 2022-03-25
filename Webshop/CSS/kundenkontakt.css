@@ -1,0 +1,17 @@
+.main{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 80%;
+    margin: auto;
+}
+.teile{
+    margin: 2%;
+    border-radius: 20px;
+    border: 2px solid #ff8f08;
+    box-shadow: 4px 3px 8px 1px #969696;
+    padding: 1%;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+}

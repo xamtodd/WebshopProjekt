@@ -1,0 +1,53 @@
+body{
+    background-color: #25acff;
+}
+.registrierung-box{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    padding-top: 3%;
+}
+form {
+    margin-left: 3%;
+    width: 90%;
+    margin-right: 3%;
+}
+form label{
+    display: flex;
+    margin-top: 2%;
+}
+form input{
+    width: 100%;
+    margin-top: 1%;
+    padding: 1%;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    background-color: #ff8f08;
+    border: none;
+}
+p{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.untererAbschnitt{
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+a{
+    color: blue;
+}
+@media all and (max-width: 800px) {
+    .registrierung-box{
+        width: 100%;
+    }
+}

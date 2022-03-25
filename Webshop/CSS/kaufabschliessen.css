@@ -1,0 +1,125 @@
+.Main{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 80%;
+    margin: auto;
+    font-size: 1.5em;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.Main table{
+    margin: auto;
+    width: 100%;
+}
+.Preis{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn a{
+    width: 45%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.btn a button{
+    width: 100%;
+    padding: 1%;
+    background-color: #ff8f08;
+    border: none;
+    border-radius: 20px;
+}
+.Main table td{
+    width: 15%;
+    text-align: center;
+}
+.Main table button{
+    border: none;
+    display: table;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.optionen{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+.optionen a{
+    width: 100%;
+    padding: 1%;
+}
+.optionen a button{
+    width: 100%;
+    background-color: #ff8f08;
+    padding: 1%;
+    border: none;
+    border-radius: 20px;
+}
+.vors{
+    visibility: hidden;
+}
+.summe{
+    display: flex;
+    justify-content: space-between;
+}
+.letzteReihe{
+    visibility: hidden;
+}
+.Bild{
+    width: 100%;
+}
+.Bild img{
+    width: 100%;
+    height: auto;
+}
+.Main table th{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.Main table td{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+@media (max-width: 1000px){
+    .Main{
+        padding-top: 4em;
+        font-size: 1em;
+        width: 100%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .Main table th{
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+    .Main table td{
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+    .resp{
+        display: none;
+    }
+    .vors{
+        display: none;
+    }
+    .optionen{
+        display: block;
+    }
+    .optionen a button{
+        margin-bottom: 3%;
+    }
+}

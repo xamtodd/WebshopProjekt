@@ -1,0 +1,80 @@
+.content{
+    width: 100%;
+}
+body{
+    background-color: #25acff;
+}
+table{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    width: 90%;
+    margin: auto;
+}
+table th{
+    border: 1px solid black;
+}
+table td{
+    border: 1px solid black;
+}
+h1{
+    text-decoration: underline;
+}
+.Informatioen{
+    width: 90%;
+    margin: auto;
+}
+.Preis{
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.Preis p{
+    margin: 0;
+}
+.Zeitstempel{
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.Zeitstempel p{
+    margin: 0;
+}
+.Zahlungsart{
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.Zahlungsart p{
+    margin: 0;
+}
+.Status{
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.Status p{
+    margin: 0;
+}
+.Rechnungsadresse{
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.Rechnungsadresse p{
+    margin: 0;
+}
+.Lieferadresse{
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.Lieferadresse p{
+    margin: 0;
+}
+.danke{
+    width: 90%;
+    margin: auto;
+}

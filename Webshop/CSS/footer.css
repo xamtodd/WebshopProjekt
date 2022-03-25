@@ -1,0 +1,35 @@
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #25acff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    padding: 5px;
+}
+@media (max-width: 1000px){
+    .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #25acff;
+        color: white;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer a{
+        text-decoration: none;
+        color: black;
+        font-size: 1em;
+        padding: 5px;
+    }
+}

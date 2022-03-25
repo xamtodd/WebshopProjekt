@@ -1,0 +1,42 @@
+.Main{
+    padding-top: 2em;
+    font-size: 1.5em;
+    padding-bottom: 3em;
+    width: 80%;
+    margin: auto;
+}
+.anz{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+.Tabelle{
+    text-align: center;
+    padding: 1%;
+}
+.Tabelle table{
+    width: 100%;
+    margin: auto;
+}
+.Tabelle table td{
+    width: 20%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.Tabelle table th{
+    width: 16.7%;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+@media (max-width: 1000px) {
+    .Tabelle .resp{
+        display: none;
+    }
+    .Tabelle table td{
+        width: 50%;
+    }
+}

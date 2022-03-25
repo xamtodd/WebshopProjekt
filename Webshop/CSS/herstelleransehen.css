@@ -1,0 +1,58 @@
+#content{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 80%;
+    margin: auto;
+    font-size: 1.5em;
+}
+.FName{
+    display: flex;
+    justify-content: space-between;
+}
+.Webadresse{
+    display: flex;
+    justify-content: space-between;
+}
+.EMail{
+    display: flex;
+    justify-content: space-between;
+}
+.hersteller{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+a button{
+    width: 100%;
+    padding: 1%;
+    border-radius: 20px;
+    background-color: #ff8f08;
+    border: none;
+    cursor: pointer;
+}
+.ausgewaehlt{
+    box-shadow: 4px 3px 8px 1px #969696;
+    border: 2px solid #ff8f08;
+    border-radius: 20px;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+@media(max-width: 1000px){
+    #content{
+        width: 90%;
+    }
+    .hersteller{
+        padding: 2%;
+        margin-bottom: 5%;
+    }
+    .FName{
+        display: block;
+    }
+    .Webadresse{
+        display: block;
+    }
+    .EMail{
+        display: block;
+    }
+}

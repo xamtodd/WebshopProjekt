@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Webshop - anmelden</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/anmelden.css">
+    </head>
+    <body>
+        <br>
+        <div class="anmeldung-box">
+            <h1>Login</h1>
+            <form action="PHP/anmelden.php" method="post">
+                <label>Benutzername</label>
+                <input type="text" name="benutzername" placeholder="MaxMuster" required><br>
+                <br>
+                <label>Kennwort</label>
+                <input type="password" name="beutzerpasswort" placeholder="**********" required><br>
+                <br>
+                <input type="submit" value="anmelden">
+            </form>
+            <p class="untererAbschnitt">Du bist neu hier? <a href="registieren.html">Registireren</a></p>
+        </div>
+    </body>
+</html>

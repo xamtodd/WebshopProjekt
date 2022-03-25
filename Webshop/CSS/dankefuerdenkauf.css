@@ -1,0 +1,22 @@
+#content{
+    padding-top: 3em;
+}
+h1{
+    font-size: 3em;
+}
+.Main{
+    text-align: center;
+}
+.Main button{
+    width: 30%;
+    padding: 1%;
+    border: none;
+    margin-bottom: 1%;
+    background-color: #ff8f08;
+    border-radius: 20px;
+}
+@media (max-width: 1000px) {
+    .Main button{
+        width: 80%;
+    }
+}

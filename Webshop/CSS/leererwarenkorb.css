@@ -1,0 +1,31 @@
+#Content{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.Main{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.Main h1{
+    font-size: 3rem;
+    width: 100%;
+}
+button{
+    width: 30%;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff8f08;
+    padding: 0.5%;
+}
+.Main a{
+    text-align: center;
+}
+@media (max-width: 1000px){
+    button{
+        width: 50%;
+    }
+    .Main h1{
+        font-size: 2em;
+    }
+}

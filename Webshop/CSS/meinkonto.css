@@ -1,0 +1,82 @@
+.main{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 4em;
+    padding-top: 3em;
+}
+h1{
+    text-align: center;
+    padding-top: 3%;
+}
+.felder{
+    font-size: 1.5em;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.username{
+    display: flex;
+    justify-content: space-between;
+}
+.vorname{
+    display: flex;
+    justify-content: space-between;
+}
+.nachname{
+    display: flex;
+    justify-content: space-between;
+}
+.geburstag{
+    display: flex;
+    justify-content: space-between;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+}
+.passwortaendern{
+    display: flex;
+    justify-content: space-between;
+}
+.bestellungenuebersicht{
+    font-size: 1.5em;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.kundenstatus{
+    display: flex;
+    justify-content: space-between;
+}
+.bestellungen{
+    display: flex;
+    justify-content: space-between;
+}
+.abminbereich{
+    text-align: center;
+}
+.abminbereich button{
+    width: 100%;
+    background-color: #ff8f08;
+    border-radius: 20px;
+    border: none;
+    padding: 1%;
+    margin-top: 5%;
+}
+#optionen button{
+    background-color: gray;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    padding: 1%;
+    margin-top: 5%;
+}
+.lable{
+    font-weight: bold;
+}
+@media (max-width: 1000px) {
+    .main{
+        width: 100%;
+    }
+}

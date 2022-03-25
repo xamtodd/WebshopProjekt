@@ -1,0 +1,237 @@
+.Main{
+    width: 80%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin: auto;
+    font-size: 1.5em;
+}
+.kat{
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.kat p{
+    margin: 0;
+}
+.groesse{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.groesse p{
+    margin: 0;
+}
+.Preis{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.Preis p{
+    margin: 0;
+}
+.Anzahl{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.Anzahl p{
+    margin: 0;
+}
+.inp{
+    padding: 1%;
+    border: 2px solid #ff8f08;
+    border-radius: 20px;
+    box-shadow: 4px 3px 8px 1px #969696;
+}
+.inp input{
+    text-align: right;
+}
+.Bild{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: space-between;
+    display: flex;
+}
+.Kurzbeschreibung{
+    display: flex;
+    justify-content: space-between;
+}
+.langebeschreibung{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.hersteller{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.Firmename{
+    display: flex;
+    justify-content: space-between;
+}
+.Firmename p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.herstellerbox input{
+    text-align: right;
+}
+.herstellerbox{
+    padding: 1%;
+    border: 2px solid #ff8f08;
+    border-radius: 20px;
+    box-shadow: 4px 3px 8px 1px #969696;
+}
+.Webadresse{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.Webadresse p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.EMail{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.EMail p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.hersteller p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.langebeschreibung p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.Kurzbeschreibung p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.katikobox{
+    padding: 1%;
+    border: 2px solid #ff8f08;
+    border-radius: 20px;
+    box-shadow: 4px 3px 8px 1px #969696;
+}
+.Bild p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Bild input{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.ueberschrift{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.ueberschrift p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.ueberschrift .h{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.ProName{
+    justify-content: space-between;
+    display: flex;
+}
+.ProName p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+.btn a{
+    width: 100%;
+}
+.btn button{
+    width: 100%;
+    padding: 1%;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff8f08;
+    margin-bottom: 2%;
+}
+@media (max-width: 1000px) {
+    .Main{
+        width: 90%;
+        font-size: 1em;
+    }
+    .ProName{
+        display: block;
+    }
+    .Bild{
+        display: block;
+    }
+    .katikobox input{
+        width: 100%;
+    }
+    .katikobox{
+        padding: 2%;
+    }
+    .katikobox textarea{
+        width: 100%;
+    }
+    .Kurzbeschreibung{
+        display: block;
+    }
+    .langebeschreibung{
+        display: block;
+    }
+    h1{
+        text-align: center;
+    }
+    .herstellerbox{
+        padding: 2%;
+    }
+    .herstellerbox input{
+        width: 100%;
+        text-align: left;
+    }
+    .Firmename{
+        display: block;
+    }
+    .Webadresse{
+        display: block;
+    }
+    .EMail{
+        display: block;
+    }
+    .groesse{
+        display: block;
+    }
+    .Preis{
+        display: block;
+    }
+    .Anzahl{
+        display: block;
+    }
+    .inp input{
+        width: 100%;
+    }
+    .inp{
+        padding: 2%;
+    }
+    .Main button{
+        margin-top: 3%;
+    }
+}

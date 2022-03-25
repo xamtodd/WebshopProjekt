@@ -1,0 +1,111 @@
+#content{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+#content h1{
+    text-align: left;
+    padding-top: 3%;
+    font-size: 1em;
+}
+.lieferadresse{
+    font-size: 1.5em;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#persoenilcheDaten{
+     font-size: 1.5em;
+     padding-left: 2%;
+     padding-right: 2%;
+ }
+.rechnungsadresse{
+    font-size: 1.5em;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.ort{
+    display: flex;
+    justify-content: space-between;
+}
+.vn{
+    display: flex;
+    justify-content: space-between;
+}
+.nn{
+    display: flex;
+    justify-content: space-between;
+}
+.plz{
+    display: flex;
+    justify-content: space-between;
+}
+.land{
+    display: flex;
+    justify-content: space-between;
+}
+.strasse{
+    display: flex;
+    justify-content: space-between;
+}
+.hausnummer{
+    display: flex;
+    justify-content: space-between;
+}
+.passwortaendern{
+    display: flex;
+    justify-content: space-between;
+}
+.bestellungenuebersicht{
+    font-size: 1.5em;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.kundenstatus{
+    display: flex;
+    justify-content: space-between;
+}
+.bestellungen{
+    display: flex;
+    justify-content: space-between;
+}
+.abminbereich{
+    text-align: center;
+}
+.abminbereich button{
+    width: 100%;
+    background-color: #ff8f08;
+    border-radius: 20px;
+    border: none;
+    padding: 1%;
+    margin-top: 5%;
+}
+.rechnungsadresse{
+    margin-bottom: 5%;
+}
+.btn{
+    margin-top: 3%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn a{
+    width: 100%;
+    text-align: center;
+}
+.btn button{
+    margin-bottom: 1%;
+    padding: 1%;
+    width: 100%;
+    background-color: #ff8f08;
+    border-radius: 20px;
+    border: none;
+}
+@media (max-width: 1000px) {
+    #content{
+        width: 100%;
+    }
+}

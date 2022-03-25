@@ -1,0 +1,166 @@
+#Main{
+    width: 80%;
+    margin: auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 1.5em;
+}
+.nichtangemeldet{
+    text-align: center;
+    margin-bottom: 2%;
+}
+button{
+    width: 75%;
+    padding: 1%;
+    background-color: #ff8f08;
+    border: none;
+    border-radius: 20px;
+}
+.rating{
+    display: flex;
+    text-align: center;
+    width: 30%;
+    height: auto;
+    justify-content: space-between;
+}
+.rating IMG{
+    padding: 2%;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    cursor: pointer;
+}
+.Produktauswahl{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.Produktauswahl p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Produktauswahl select{
+    border-radius: 10px;
+}
+.Fische{
+    display: flex;
+    justify-content: space-between;
+}
+.Fische p{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.Inhalt{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.Text .Inhalt p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Text .Inhalt textarea{
+    width: 50%;
+}
+.Text button{
+    width: 50%;
+    border-radius: 20px;
+    padding: 1%;
+    border: none;
+    background-color: #ff8f08;
+    margin-right: 0%;
+    margin-left: 50%;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+.Nutzer{
+    display: flex;
+    justify-content: space-between;
+}
+.Art{
+    display: flex;
+    justify-content: space-between;
+}
+.AnzeigeFi{
+    display: flex;
+    text-align: center;
+    width: 30%;
+    height: auto;
+    justify-content: space-between;
+}
+.AnzeigeFi IMG{
+    padding: 2%;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+.Bewertung{
+    display: flex;
+    justify-content: space-between;
+}
+.Bewertung p{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#comments{
+    margin-top: 3%;
+}
+.box{
+    border: 2px solid #ff8f08;
+    border-radius: 20px;
+    padding: 1%;
+    box-shadow: 4px 3px 8px 1px #969696;
+    margin-bottom: 2%;
+}
+@media (max-width: 1000px) {
+    .nichtangemeldet h1{
+        font-size: 1em;
+    }
+    .Produktauswahl{
+        display: block;
+    }
+    .Fische {
+        display: block;
+    }
+    .Inhalt{
+        display: block;
+        width: 100%;
+    }
+    .Text .Inhalt textarea{
+        width: 100%;
+    }
+    .Text button{
+        margin-left: 0;
+        width: 100%;
+    }
+    .Nutzer{
+        display: block;
+    }
+    .Art{
+        display: block;
+    }
+    .Bewertung{
+        display: block;
+    }
+    .Bewertung .AnzeigeFi{
+        width: 80%;
+        margin-top: 1%;
+    }
+    .Fische .rating{
+        width: 80%;
+        margin-top: 1%;
+    }
+    .box{
+        padding: 2%;
+    }
+    .box .Nutzer p{
+        margin-top: 0;
+    }
+    .box .Kommentar p{
+        margin-bottom: 0;
+    }
+}

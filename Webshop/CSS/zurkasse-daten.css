@@ -1,0 +1,89 @@
+#content{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 4em;
+    padding-top: 2em;
+}
+h1{
+    text-align: left;
+    padding-top: 3%;
+}
+.Land{
+    display: flex;
+    justify-content: space-between;
+}
+.Land label{
+    margin-top: 0;
+}
+.gleich{
+    display: flex;
+    justify-content: space-between;
+}
+.gleich label{
+    margin-top: 0;
+}
+#altennamen .vn{
+    display: flex;
+    justify-content: space-between;
+}
+#altennamen .vn label{
+    margin-top: 0;
+}
+#altennamen .nn{
+    display: flex;
+    justify-content: space-between;
+}
+#altennamen .nn label{
+    margin-top: 0;
+}
+.gleich input{
+    width: 5%;
+}
+form {
+    width: 90%;
+    margin-right: 3%;
+}
+form label{
+    display: flex;
+    margin-top: 2%;
+}
+form input{
+    width: 100%;
+    margin-top: 1%;
+    padding: 1%;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    background-color: #ff8f08;
+    border: none;
+}
+p{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.untererAbschnitt{
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+a{
+    color: blue;
+}
+@media all and (max-width: 800px) {
+    .Box{
+        width: 100%;
+        margin-left: 0;
+    }
+    form{
+        width: 100%;
+    }
+    #content{
+        width: 100%;
+    }
+}
