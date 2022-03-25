@@ -1,4 +1,4 @@
-#Anleitung Webshop - Max G.
+# Anleitung Webshop - Max G.
 
 
 1. Erstellen Sie sich einen Benutzer mit den folgenden Eigenschaften
@@ -16,7 +16,7 @@ Rechte: alle
 
 
 
-##Vor registrierte Nutzer
+## Vor registrierte Nutzer
 
 1.Admin User
 
@@ -26,7 +26,7 @@ Passwort: admin
 >>Benutzername: nutzer\
 Passwort: nutzer
 
-##Allgemein
+## Allgemein
 
 1. Alle benutzen Bilder sind lizenzfrei!
 
