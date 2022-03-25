@@ -12,7 +12,7 @@ Rechte: alle
 
 >>Datenbank Name: webshop
 
-3. Gehen Sie in der Ordner *WebshopProjekt->Webshop->SQL_BackUP* und importieren Sie den Inhalt der Datei webshop_db.sql in die eben angelegt Datenbank.
+3. Gehen Sie in der Ordner *Webshop->SQL_BackUP* und importieren Sie den Inhalt der Datei webshop_db.sql in die eben angelegt Datenbank.
 
 
 
