@@ -18,7 +18,7 @@ Rechte: alle
 
 ## Vor registrierte Nutzer
 
-1.Admin User
+1. Admin User
 
 >>Benutzername: admin\
 Passwort: admin
